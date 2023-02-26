@@ -4,10 +4,10 @@ int cpuRandom;
 
 bool loopActive = true; //bool - true/false
 
-while(loopActive)
+while (loopActive)
 {
     cpuRandom = rnd.Next(1, 4);
-   Console.WriteLine($"cpu has generated {cpuRandom}.");
+    // Console.WriteLine($"cpu has generated {cpuRandom}.");
     Console.WriteLine("Make a guess. Enter a number 1-3:");
     
     int userNumber = Int32.Parse(Console.ReadLine());
@@ -15,9 +15,12 @@ while(loopActive)
     if (userNumber == cpuRandom)
     {
         Console.WriteLine("Congratualation, you won!");
+        //loopActive = false;
+        break;
     }
     else
-    { Console.WriteLine("Oops. Try again."); }
+    { 
+        Console.WriteLine("Oops. Try again."); 
+    }
 }
-
-
+Console.WriteLine("Have a nice day!");

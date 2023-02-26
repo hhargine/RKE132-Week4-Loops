@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week4Loops", "Week4Loops\Week4Loops.csproj", "{02879908-430A-412F-B3BE-1BA125D12E3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week4Loops", "Week4Loops\Week4Loops.csproj", "{02879908-430A-412F-B3BE-1BA125D12E3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoopSum", "ForLoopSum\ForLoopSum.csproj", "{467E1AC9-1E6A-47DE-82B3-57CAA1ADA3E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoopSum", "ForLoopSum\ForLoopSum.csproj", "{467E1AC9-1E6A-47DE-82B3-57CAA1ADA3E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumber", "RandomNumber\RandomNumber.csproj", "{F7965949-67A6-45B4-AAA3-AF2044E8EED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomNumber", "RandomNumber\RandomNumber.csproj", "{F7965949-67A6-45B4-AAA3-AF2044E8EED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhileLoops", "WhileLoops\WhileLoops.csproj", "{FE000DC8-39E1-4BD6-9F9C-3FE94DF4B3FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WhileLoops", "WhileLoops\WhileLoops.csproj", "{FE000DC8-39E1-4BD6-9F9C-3FE94DF4B3FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "week4test", "week4test\week4test.csproj", "{1074D030-631B-422B-8938-1B8161FDF460}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FE000DC8-39E1-4BD6-9F9C-3FE94DF4B3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE000DC8-39E1-4BD6-9F9C-3FE94DF4B3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE000DC8-39E1-4BD6-9F9C-3FE94DF4B3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1074D030-631B-422B-8938-1B8161FDF460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1074D030-631B-422B-8938-1B8161FDF460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1074D030-631B-422B-8938-1B8161FDF460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1074D030-631B-422B-8938-1B8161FDF460}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
